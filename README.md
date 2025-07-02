@@ -14,6 +14,17 @@ Here's a quick look at the web application:
 
 ![Demo](doc/main.png)
 
+## run
+1. git clone
+2. composer install
+3. composer dump-autoload
+4. php artisan key:generate
+5. php artisan migrate
+6. php artisan migrate --seed
+7. php artisan crudbooster:install
+8. php artisan serve
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
